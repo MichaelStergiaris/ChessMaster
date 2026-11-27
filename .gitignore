@@ -1,0 +1,17 @@
+# Build outputs
+out/
+*.class
+*.jar
+
+# Stockfish binary (downloaded via setup-stockfish.ps1)
+engine/*.exe
+engine/*.zip
+engine/extracted/
+
+# IDE & OS files
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
